@@ -1,5 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
+# Qutebrowser
 apt install -y qutebrowser
 
 # Brave
@@ -11,4 +12,4 @@ echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable ma
 
 apt update
 
-apt -y install brave-browser
+apt install -y brave-browser
