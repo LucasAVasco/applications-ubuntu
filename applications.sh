@@ -9,6 +9,8 @@ apt install -y gnome-system-monitor
 # Pdf manipulation and read
 apt install -y pdfshuffler pdfmod evince
 
+# Archive manipulation
+apt install -y file-roller rar
 # Electronics
 apt install -y kicad freecad octave wireshark
 
