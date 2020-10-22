@@ -6,10 +6,6 @@ apt install -y playonlinux
 # System
 apt install -y gnome-system-monitor
 
-apt install -y vim git build-essential
-
-# Vundle
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # Electronics
 apt install -y kicad freecad octave wireshark
