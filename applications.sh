@@ -6,6 +6,8 @@ apt install -y playonlinux
 # System
 apt install -y gnome-system-monitor
 
+# Pdf manipulation and read
+apt install -y pdfshuffler pdfmod evince
 
 # Electronics
 apt install -y kicad freecad octave wireshark
