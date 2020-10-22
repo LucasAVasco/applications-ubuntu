@@ -14,6 +14,8 @@ apt install -y file-roller rar
 # Electronics
 apt install -y kicad freecad octave wireshark
 
+# Utilities
+apt install -y qtqr
 
 # Alacritty
 add-apt-repository ppa:mmstick76/alacritty
