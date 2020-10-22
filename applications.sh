@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Applications
+# windows
 apt install -y playonlinux
 
 apt install -y gnome-system-monitor
