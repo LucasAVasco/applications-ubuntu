@@ -3,6 +3,7 @@
 # windows
 apt install -y playonlinux
 
+# System
 apt install -y gnome-system-monitor
 
 apt install -y vim git build-essential
