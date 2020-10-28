@@ -1,6 +1,10 @@
 #!/bin/bash
 
+# Plank
 apt install -y plank
+
+# Arc Themes
+apt install -y arc-theme
 
 # Pilg Store
 echo 'download Plig Store on https://www.pling.com/p/1175480/'
