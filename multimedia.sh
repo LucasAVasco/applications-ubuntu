@@ -16,6 +16,9 @@ apt install -y kdenlive
 # OBS
 apt install -y obs-studio
 
+# Dia
+apt install -y dia
+
 # Krita
 add-apt-repository -y ppa:kritalime/ppa
 apt update -y
