@@ -4,6 +4,9 @@
 apt install -y gimp gpick inkscape
 apt install -y imagemagick graphicsmagick graphicsmagick-imagemagick-compat
 
+# Image viewer
+apt install -y gthumb
+
 # Sound
 apt install -y audacity
 
