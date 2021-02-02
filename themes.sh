@@ -6,6 +6,11 @@ apt install -y plank
 # Arc Themes
 apt install -y arc-theme
 
+# Flat remix icon and gtk themes
+add-apt-repository -y ppa:daniruiz/flat-remix
+apt update
+apt install -y flat-remix flat-remix-gtk
+
 # Pilg Store
 echo 'download Plig Store on https://www.pling.com/p/1175480/'
 
