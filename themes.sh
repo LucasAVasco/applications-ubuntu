@@ -17,9 +17,6 @@ apt install -y libreoffice-style-colibre
 apt install -y libreoffice-style-oxygen
 apt install -y libreoffice-style-sifr
 
-# Pilg Store
-echo 'download Plig Store on https://www.pling.com/p/1175480/'
-
 # Mac OS GTK Theme
 echo 'download Whitesur Gtk Light and Dark theme on pling store'
 
