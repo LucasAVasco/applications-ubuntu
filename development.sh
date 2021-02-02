@@ -7,7 +7,7 @@ apt install -y vim perl tmux git build-essential universal-ctags
 apt install -y neovim nodejs npm ccls
 
 # Search
-apt isntall -y fzf silversearcher-ag
+apt install -y fzf silversearcher-ag
 
 # Bat
 echo 'download Bat in the "https://github.com/sharkdp/bat/releases" site'
