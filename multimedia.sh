@@ -26,3 +26,8 @@ apt install -y blender
 add-apt-repository -y ppa:kritalime/ppa
 apt update -y
 apt install -y krita
+
+# Install HandBreak
+add-apt-repository -y ppa:stebbins/handbrake-releases
+apt update
+apt install -y handbrake-gtk
