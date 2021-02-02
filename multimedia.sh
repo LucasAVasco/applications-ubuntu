@@ -19,6 +19,9 @@ apt install -y obs-studio
 # Dia
 apt install -y dia
 
+# Blender
+apt install -y blender
+
 # Krita
 add-apt-repository -y ppa:kritalime/ppa
 apt update -y
