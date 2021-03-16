@@ -16,6 +16,9 @@ apt install -y audacity lmms
 apt install -y kdenlive mkvtoolnix-gui
 flatpak install flathub no.mifi.losslesscut
 
+# Font Editor
+apt install -y birdfont
+
 # OBS
 apt install -y obs-studio
 
