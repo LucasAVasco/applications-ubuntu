@@ -11,3 +11,8 @@ apt install -y fzf silversearcher-ag
 
 # Bat
 echo 'download Bat in the "https://github.com/sharkdp/bat/releases" site'
+read
+
+# Smath Studio
+echo 'download Smath Stdio in "https://en.smath.com/view/SMathStudio/summary" site'
+read
