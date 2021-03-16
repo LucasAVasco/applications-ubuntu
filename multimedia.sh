@@ -10,7 +10,7 @@ apt install -y darktable
 apt install -y gthumb
 
 # Sound
-apt install -y audacity
+apt install -y audacity lmms
 
 # Video
 apt install -y kdenlive
