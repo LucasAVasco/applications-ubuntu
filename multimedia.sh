@@ -14,6 +14,7 @@ apt install -y audacity lmms
 
 # Video
 apt install -y kdenlive mkvtoolnix-gui
+flatpak install flathub no.mifi.losslesscut
 
 # OBS
 apt install -y obs-studio
