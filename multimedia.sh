@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Graphics
-apt install -y gimp gpick inkscape
+apt install -y gimp gpick inkscape mypaint
 apt install -y imagemagick graphicsmagick graphicsmagick-imagemagick-compat
 
 # Image viewer
