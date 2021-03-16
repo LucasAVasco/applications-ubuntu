@@ -20,6 +20,9 @@ add-apt-repository -y ppa:scorpio/qelectrotech-dev
 apt update
 apt install -y qelectrotech
 
+# Email
+apt install -y evolution
+
 # Utilities
 apt install -y qtqr
 
