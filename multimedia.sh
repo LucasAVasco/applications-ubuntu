@@ -13,7 +13,7 @@ apt install -y gthumb
 apt install -y audacity lmms
 
 # Video
-apt install -y kdenlive
+apt install -y kdenlive mkvtoolnix-gui
 
 # OBS
 apt install -y obs-studio
