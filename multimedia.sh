@@ -4,6 +4,7 @@
 apt install -y gimp gpick inkscape mypaint
 apt install -y gimp gimp-data-extras gimp-gmic gimp-plugin-registry gimp-dcraw gimp-gap gimp-gluas gimp-lensfun gimp-normalmap gimp-texturize
 apt install -y imagemagick graphicsmagick graphicsmagick-imagemagick-compat
+apt install -y darktable
 
 # Image viewer
 apt install -y gthumb
