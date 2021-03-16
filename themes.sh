@@ -6,6 +6,11 @@ apt install -y plank
 # Arc Themes
 apt install -y arc-theme
 
+# Plata theme
+add-apt-repository -y ppa:tista/plata-theme
+apt update
+apt install -y plata-theme
+
 # Flat remix icon and gtk themes
 add-apt-repository -y ppa:daniruiz/flat-remix
 apt update
