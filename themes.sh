@@ -27,3 +27,6 @@ echo 'download Whitesur Gtk Light and Dark theme on pling store'
 
 # MAG OS Icons
 echo 'dowload Whitesur icon theme on pling store'
+
+# Orchis theme
+echo 'download Orchis GTK theme in Gnome Look'
