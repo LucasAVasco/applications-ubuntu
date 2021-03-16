@@ -11,8 +11,14 @@ apt install -y pdfshuffler pdfmod evince okular
 
 # Archive manipulation
 apt install -y file-roller rar
+
 # Electronics
 apt install -y kicad freecad octave wireshark
+
+# Qeletrotech
+add-apt-repository -y ppa:scorpio/qelectrotech-dev
+apt update
+apt install -y qelectrotech
 
 # Utilities
 apt install -y qtqr
