@@ -27,16 +27,9 @@ apt install -y evolution
 apt install -y qtqr
 
 # Alacritty
-add-apt-repository ppa:mmstick76/alacritty
+add-apt-repository -y ppa:mmstick76/alacritty
 apt update
 apt install -y alacritty
 
 # Libreoffice portuguese packages
 apt install -y myspell-pt-br libreoffice-help-pt-br hyphen-pt-br libreoffice-grammarcheck-pt-br libreoffice-lightproof-pt-br
-
-# Appimage Launcher
-echo 'download AppimageLauncher on https://github.com/TheAssassin/AppImageLauncher/releases (bionic)'
-
-# Panther Laucher
-echo 'download panther launcher: https://www.rastersoft.com/programas/panther_launcher.html"'
-
