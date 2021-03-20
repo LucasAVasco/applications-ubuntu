@@ -6,6 +6,10 @@ apt install -y vim perl tmux git build-essential universal-ctags
 # Neo Vim
 apt install -y neovim nodejs npm ccls
 
+# Python
+apt install -y python3-pip
+pip3 install pycodestyle
+
 # Search
 apt install -y fzf silversearcher-ag
 
