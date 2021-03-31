@@ -7,7 +7,7 @@ apt install -y vim perl tmux git git-lfs build-essential universal-ctags default
 apt install -y neovim nodejs npm ccls
 
 # Python
-apt install -y python3-pip pylint
+apt install -y python3-pip
 
 # Search
 apt install -y fzf silversearcher-ag
