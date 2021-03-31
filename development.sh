@@ -10,7 +10,7 @@ apt install -y neovim nodejs npm ccls
 apt install -y python3-pip
 
 # Search
-apt install -y fzf silversearcher-ag
+apt install -y fzf silversearcher-ag gawk
 
 # Bat
 echo 'download Bat in the "https://github.com/sharkdp/bat/releases" site'
