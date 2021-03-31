@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Basics
-apt install -y vim perl tmux git build-essential universal-ctags
+apt install -y vim perl tmux git git-lfs build-essential universal-ctags default-jdk libssl-dev ncurses-term ack-grep software-properties-common
 
 # Neo Vim
 apt install -y neovim nodejs npm ccls
