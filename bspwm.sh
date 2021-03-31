@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Basics
-apt install -y bspwm sxhkd pulseaudio pavucontrol rofi
+apt install -y bspwm sxhkd pulseaudio pavucontrol rofi brightnessctl
 
 # Customization
 apt install -y lxappearance nitrogen compton
