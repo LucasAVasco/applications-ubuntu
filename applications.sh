@@ -20,6 +20,9 @@ add-apt-repository -y ppa:scorpio/qelectrotech-dev
 apt update
 apt install -y qelectrotech
 
+# Mime types
+apt install -y menulibre
+
 # Email
 apt install -y evolution
 
