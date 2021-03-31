@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Brave
-apt install -y apt-transport-https curl
+apt install -y apt-transport-https curl gnupg
 
 curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
 
