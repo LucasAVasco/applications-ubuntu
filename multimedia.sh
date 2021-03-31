@@ -18,7 +18,6 @@ apt install -y audacity lmms
 
 # Video
 apt install -y kdenlive mkvtoolnix-gui
-flatpak install flathub no.mifi.losslesscut
 
 # Font Editor
 apt install -y birdfont
