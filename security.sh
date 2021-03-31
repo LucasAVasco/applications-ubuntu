@@ -8,3 +8,6 @@ apt install -y kleopatra
 
 # Keepassxc
 apt install -y keepassxc
+
+# Gnome polkit
+apt install -y policykit-1-gnome
