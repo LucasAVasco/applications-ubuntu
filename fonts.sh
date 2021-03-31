@@ -10,4 +10,4 @@ apt install -y fonts-noto-core fonts-noto-mono
 apt install -y msttcorefonts
 
 # Local Script
-echo 'Execute the another script'
+echo 'Execute the local script'
