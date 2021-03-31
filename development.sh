@@ -13,8 +13,7 @@ apt install -y python3-pip
 apt install -y fzf silversearcher-ag gawk
 
 # Bat
-echo 'download Bat in the "https://github.com/sharkdp/bat/releases" site'
-read
+apt install -y bat
 
 # Smath Studio
 echo 'download Smath Stdio in "https://en.smath.com/view/SMathStudio/summary" site'
