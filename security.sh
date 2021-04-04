@@ -3,6 +3,9 @@
 # Basics
 apt install -y dirmngr gpg
 
+# Firewall
+apt install -y gufw
+
 # kleopatra
 apt install -y kleopatra
 
