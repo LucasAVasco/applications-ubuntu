@@ -12,6 +12,9 @@ add-apt-repository -y ppa:tista/plata-theme
 apt update
 apt install -y plata-theme
 
+# Breeze
+apt install -y breeze
+
 # Flat remix icon and gtk themes
 add-apt-repository -y ppa:daniruiz/flat-remix
 apt update
