@@ -6,3 +6,7 @@ rm *~ .*~ 2> /dev/null
 
 # Clear 'local/' directory
 rm local/*~ .local/*~ 2> /dev/null
+
+
+# Return success
+exit 0
