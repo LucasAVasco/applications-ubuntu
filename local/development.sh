@@ -21,7 +21,8 @@ tic -o "$HOME/.terminfo" xterm-256color.terminfo
 git lfs install
 
 
-# Remenber to setup git
+# Setup git
+git config --global core.autocrlf input
 git config --global core.editor nvim
 echo 'Remember to setup git user name and e-mail:'
 echo 'git config --global user.name'
