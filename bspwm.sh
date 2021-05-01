@@ -3,6 +3,9 @@
 # Basics
 apt install -y bspwm sxhkd pulseaudio pavucontrol rofi brightnessctl
 
+# File manager
+apt install -y thunar thunar-archive-plugin
+
 # Customization
 apt install -y lxappearance nitrogen compton
 
