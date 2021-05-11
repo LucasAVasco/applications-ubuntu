@@ -12,5 +12,8 @@ apt install -y kleopatra
 # Keepassxc
 apt install -y keepassxc
 
+# Sirikali
+apt install -y sirikali
+
 # Gnome polkit
 apt install -y policykit-1-gnome
