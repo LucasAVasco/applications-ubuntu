@@ -27,7 +27,7 @@ else
 fi
 
 # Screen locker
-apt install -y slim
+apt install -y light-locker light-locker-settings
 
 # Polybar
 echo 'you need to install Polybar for the Ubuntu groovy packages repository: https://packages.ubuntu.com/groovy/amd64/polybar/download'
