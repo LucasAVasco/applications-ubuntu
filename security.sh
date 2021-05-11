@@ -6,6 +6,9 @@ apt install -y dirmngr gpg
 # Firewall
 apt install -y gufw
 
+# Firejail
+apt install -y firejail firetools
+
 # kleopatra
 apt install -y kleopatra
 
