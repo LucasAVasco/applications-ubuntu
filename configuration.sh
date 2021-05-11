@@ -6,3 +6,6 @@ apt install -y xfce4-settings
 
 # Gnome control center
 apt install -y gnome-control-center
+
+# Gnome tweaks
+apt install -y gnome-tweaks
