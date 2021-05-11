@@ -9,6 +9,9 @@ apt install -y gufw
 # Firejail
 apt install -y firejail firetools
 
+# ClamAV
+apt install -y clamav clamtk
+
 # kleopatra
 apt install -y kleopatra
 
