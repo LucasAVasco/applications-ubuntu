@@ -9,3 +9,6 @@ apt install -y gnome-control-center
 
 # Gnome tweaks
 apt install -y gnome-tweaks
+
+# Dconf-editor
+apt install -y dconf-editor
