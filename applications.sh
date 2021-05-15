@@ -29,8 +29,11 @@ apt install -y menulibre
 # Email
 apt install -y evolution
 
-# Utilities
+# QR code
 apt install -y qtqr
+
+# Search files interface
+apt install -y catfish
 
 # Alacritty
 add-apt-repository -y ppa:mmstick76/alacritty
