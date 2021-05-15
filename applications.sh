@@ -12,6 +12,9 @@ apt install -y pdfshuffler pdfmod evince okular
 # Archive manipulation
 apt install -y file-roller rar
 
+# Scanner
+apt install -y simple-scan
+
 # Electronics
 apt install -y kicad freecad octave wireshark
 
