@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # Brave
 apt install -y apt-transport-https curl gnupg
 
@@ -10,6 +11,8 @@ echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable ma
 apt update -y
 apt install -y brave-browser
 
+# Tor
+apt install -y torbrowser-launcher
 
 # Fluent Reader
 echo 'Download Fluent Reader in "https://github.com/yang991178/fluent-reader/releases" site'
