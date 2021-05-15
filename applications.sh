@@ -35,6 +35,9 @@ apt install -y qtqr
 # Search files interface
 apt install -y catfish
 
+# Compare files
+apt install -y meld
+
 # Alacritty
 add-apt-repository -y ppa:mmstick76/alacritty
 apt update
