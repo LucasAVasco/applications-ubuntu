@@ -17,7 +17,11 @@ apt install -y gthumb
 apt install -y audacity lmms
 
 # Video
-apt install -y kdenlive mkvtoolnix-gui
+add-apt-repository -y ppa:kdenlive/kdenlive-stable
+apt update -y
+apt install -y kdenlive
+
+apt install -y mkvtoolnix-gui
 
 # Font Editor
 apt install -y birdfont
