@@ -9,6 +9,9 @@ apt install -y neovim ccls
 # ASDF
 apt install -y curl git
 
+# Node.js
+apt install -y dirmngr gpg curl gawk
+
 # Python
 apt install -y python3-pip
 

@@ -11,6 +11,18 @@ git checkout "$(git describe --abbrev=0 --tags)"
 cd -
 
 
+# Node.js
+. $HOME/.asdf/asdf.sh
+
+asdf plugin-add nodejs
+
+bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
+bash -c '${ASDF_DATA_DIR:=$HOME/.asdf}/plugins/nodejs/bin/import-previous-release-team-keyring'
+
+asdf install nodejs latest
+asdf global nodejs latest
+
+
 # Italic to Neovim
 tic -o "$HOME/.terminfo" tmux.terminfo
 tic -o "$HOME/.terminfo" tmux-256color.terminfo
