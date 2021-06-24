@@ -3,6 +3,9 @@
 # Basics
 apt install -y dirmngr gpg
 
+# Hash
+apt install -y gtkhash
+
 # Firewall
 apt install -y gufw
 
