@@ -17,6 +17,11 @@ tic -o "$HOME/.terminfo" tmux-256color.terminfo
 tic -o "$HOME/.terminfo" xterm-256color.terminfo
 
 
+# Homebrew
+sudo apt install -y procps file curl
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
 # Git-lfs
 git lfs install
 
