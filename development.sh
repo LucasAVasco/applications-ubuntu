@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # Basics
 apt install -y vim perl tmux git git-lfs build-essential universal-ctags default-jdk libssl-dev ncurses-term ack-grep software-properties-common
 

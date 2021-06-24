@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # Solve dependences
 echo 'Execute the another script'
 

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # Basics
 apt isntall -y fontconfig
 

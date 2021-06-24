@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # Basics
 apt install -y bspwm sxhkd pulseaudio pavucontrol rofi brightnessctl
 

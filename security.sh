@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # Basics
 apt install -y dirmngr gpg
 

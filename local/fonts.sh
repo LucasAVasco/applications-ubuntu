@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # Install Hack Regular Nerd Font Complete Mono
 HOME_PATH=~
 mkdir -p ~/.local/share/fonts/hack

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # Plank
 apt install -y plank
 apt install -y xfce4-appfinder # Used to add applications to plank
