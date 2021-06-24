@@ -13,7 +13,3 @@ apt install -y brave-browser
 
 # Tor
 apt install -y torbrowser-launcher
-
-# Fluent Reader
-echo 'Download Fluent Reader in "https://github.com/yang991178/fluent-reader/releases" site'
-read
