@@ -23,6 +23,12 @@ asdf install nodejs latest
 asdf global nodejs latest
 
 
+# Yarn
+asdf plugin-add yarn
+asdf install yarn latest
+asdf global yarn latest
+
+
 # Italic to Neovim
 tic -o "$HOME/.terminfo" tmux.terminfo
 tic -o "$HOME/.terminfo" tmux-256color.terminfo
