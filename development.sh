@@ -6,6 +6,9 @@ apt install -y vim perl tmux git git-lfs build-essential universal-ctags default
 # Neo Vim
 apt install -y neovim ccls
 
+# ASDF
+apt install -y curl git
+
 # Python
 apt install -y python3-pip
 
