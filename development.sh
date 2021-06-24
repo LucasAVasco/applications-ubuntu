@@ -15,3 +15,5 @@ apt install -y fzf silversearcher-ag gawk
 # Bat
 apt install -y bat
 
+# Local script
+echo 'After this, execute the local script'
