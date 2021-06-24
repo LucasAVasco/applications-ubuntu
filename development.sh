@@ -15,7 +15,3 @@ apt install -y fzf silversearcher-ag gawk
 # Bat
 apt install -y bat
 
-
-# Smath Studio
-echo 'download Smath Stdio in "https://en.smath.com/view/SMathStudio/summary" site'
-read
