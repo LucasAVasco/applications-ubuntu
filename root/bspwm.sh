@@ -10,6 +10,9 @@ apt install -y thunar thunar-archive-plugin thunar-volman
 # Customization
 apt install -y lxappearance nitrogen compton
 
+# Notification daemon
+apt install -y xfce4-notifyd
+
 # Login manager
 apt install -y lightdm
 
