@@ -17,6 +17,7 @@ apt install -y xfce4-notifyd
 apt install -y stalonetray
 
 # Screen locker
+apt install -y qiv xtrlock conky imagemagick fonts-noto-core xss-lock
 
 # Polybar
 echo 'you need to install Polybar for the Ubuntu groovy packages repository: https://packages.ubuntu.com/groovy/amd64/polybar/download '
