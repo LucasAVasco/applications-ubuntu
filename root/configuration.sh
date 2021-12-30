@@ -12,3 +12,6 @@ apt install -y gnome-tweaks
 
 # Dconf-editor
 apt install -y dconf-editor
+
+# Partitions
+apt install -y gparted gdisk
