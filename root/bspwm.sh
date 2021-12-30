@@ -13,6 +13,8 @@ apt install -y lxappearance nitrogen compton
 # Notification daemon
 apt install -y xfce4-notifyd
 
+# System trayer
+apt install -y stalonetray
 
 # Screen locker
 
