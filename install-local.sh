@@ -2,13 +2,13 @@
 
 
 USER_SCRIPTS=( \
-	'development.sh' \
-	'fonts.sh' \
-	'document.sh' \
-	#'avr.sh' \
-	#'game_development.sh' \
-	#'games.sh' \
-	#'web_development.sh' \
+	'development' \
+	'fonts' \
+	'document' \
+	#'avr' \
+	#'game_development' \
+	#'games' \
+	#'web_development' \
 )
 
 
