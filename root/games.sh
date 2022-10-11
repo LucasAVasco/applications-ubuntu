@@ -8,3 +8,4 @@ apt install lutris
 
 # Local Script
 echo 'Execute the another script'
+read

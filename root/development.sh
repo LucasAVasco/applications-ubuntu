@@ -24,3 +24,4 @@ apt install -y bat
 
 # Local script
 echo 'After this, execute the local script'
+read

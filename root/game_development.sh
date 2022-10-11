@@ -9,3 +9,4 @@ apt install libglfw3-dev libgles2-mesa-dev
 
 # Local Script
 echo 'Execute the another script'
+read

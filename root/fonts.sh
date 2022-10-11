@@ -12,3 +12,4 @@ apt install -y msttcorefonts
 
 # Local Script
 echo 'Execute the local script'
+read

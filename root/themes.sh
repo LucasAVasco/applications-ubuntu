@@ -35,3 +35,4 @@ echo 'dowload Whitesur icon theme on pling store'
 
 # Orchis theme
 echo 'download Orchis GTK theme in Gnome Look'
+read
