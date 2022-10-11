@@ -47,5 +47,8 @@ apt install -y alacritty
 # Torrent clients
 apt install -y qbittorrent
 
+# Libreoffice math
+apt install -y libreoffice-math
+
 # Libreoffice portuguese packages
 apt install -y myspell-pt-br libreoffice-help-pt-br hyphen-pt-br libreoffice-grammarcheck-pt-br libreoffice-lightproof-pt-br
