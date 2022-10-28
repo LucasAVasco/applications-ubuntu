@@ -5,7 +5,7 @@
 apt install -y bspwm sxhkd pulseaudio pavucontrol rofi brightnessctl
 
 # File manager
-apt install -y thunar thunar-archive-plugin thunar-volman
+apt install -y thunar thunar-archive-plugin thunar-volman vifm
 
 # Customization
 apt install -y lxappearance nitrogen compton
