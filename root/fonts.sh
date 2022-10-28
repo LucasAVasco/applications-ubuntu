@@ -11,5 +11,4 @@ apt install -y fonts-noto-core fonts-noto-mono
 apt install -y msttcorefonts
 
 # Local Script
-echo 'Execute the local script'
-read
+echo -e "\nExecute the local 'fonts.sh' script.\n" >> 'root-post-install.txt'

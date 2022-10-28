@@ -7,5 +7,4 @@ apt update
 apt install lutris
 
 # Local Script
-echo 'Execute the another script'
-read
+echo -e "\nExecute the local 'games.sh' script.\n" >> 'root-post-install.txt'

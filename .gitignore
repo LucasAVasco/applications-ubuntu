@@ -1,2 +1,7 @@
+# Vim backup files
 .*~
 *~
+
+# Post install messages
+root-post-install.txt
+local-post-install.txt

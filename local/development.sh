@@ -48,7 +48,6 @@ git lfs install
 # Setup git
 git config --global core.autocrlf input
 git config --global core.editor nvim
-echo 'Remember to setup git user name and e-mail:'
-echo 'git config --global user.name'
-echo 'git config --global user.email'
-read
+echo -e "\nRemember to setup git user name and e-mail:" \
+	"\ngit config --global user.name" \
+	"\ngit config --global user.email\n" >> 'local-post-install.txt'

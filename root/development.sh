@@ -23,5 +23,4 @@ apt install -y fzf silversearcher-ag gawk
 apt install -y bat
 
 # Local script
-echo 'After this, execute the local script'
-read
+echo -e "\nExecute the local 'development.sh' script.\n" >> 'root-post-install.txt'

@@ -20,7 +20,11 @@ USER_SCRIPTS=( \
 )
 
 
+rm local-post-install.txt
+
 # Install local user applications
 for loop in "${USER_SCRIPTS[@]}"; do
 	./local/${loop}.sh
 done
+
+cat local-post-install.txt

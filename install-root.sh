@@ -30,7 +30,11 @@ ROOT_SCRIPTS=( \
 )
 
 
+rm root-post-install.txt
+
 # Install system applications
 for loop in "${ROOT_SCRIPTS[@]}"; do
 	./root/${loop}.sh
 done
+
+cat root-post-install.txt

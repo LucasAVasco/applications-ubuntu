@@ -27,12 +27,7 @@ apt install -y libreoffice-style-colibre
 apt install -y libreoffice-style-oxygen
 apt install -y libreoffice-style-sifr
 
-# Mac OS GTK Theme
-echo 'download Whitesur Gtk Light and Dark theme on pling store'
-
-# MAG OS Icons
-echo 'dowload Whitesur icon theme on pling store'
-
-# Orchis theme
-echo 'download Orchis GTK theme in Gnome Look'
-read
+# Local installed themes
+echo -e "\nDownoad Whitesur Gtk Light and Dark theme on pling store," \
+	"\nWhitesur icon theme on pling store and" \
+	"\nOrchis GTK theme in Gnome Look.\n" >> 'root-post-install.txt'
