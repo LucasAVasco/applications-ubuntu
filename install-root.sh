@@ -1,6 +1,14 @@
 #!/bin/bash
 
 
+# Does not run if the user is not root
+id | grep '^uid=0(root)' > /dev/null 2> /dev/null || \
+	{
+		echo "Do not run this script as a non-root user!"
+		exit
+	}
+
+
 ROOT_SCRIPTS=( \
 	'development' \
 	'fonts' \
