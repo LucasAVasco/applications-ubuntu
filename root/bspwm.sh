@@ -2,7 +2,7 @@
 
 
 # Basics
-apt install -y bspwm sxhkd pulseaudio pavucontrol rofi brightnessctl
+apt install -y bspwm sxhkd pulseaudio pavucontrol rofi brightnessctl zenity
 
 # File manager
 apt install -y thunar thunar-archive-plugin thunar-volman vifm
