@@ -17,7 +17,7 @@ apt install -y dirmngr gpg curl gawk
 apt install -y python3-pip
 
 # Search
-apt install -y fzf silversearcher-ag gawk
+apt install -y fzf silversearcher-ag gawk tree
 
 # Bat
 apt install -y bat
