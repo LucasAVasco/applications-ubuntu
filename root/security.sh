@@ -2,7 +2,7 @@
 
 
 # Basics
-apt install -y dirmngr gpg
+apt install -y dirmngr gpg rng-tools
 
 # Hash
 apt install -y gtkhash
