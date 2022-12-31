@@ -30,11 +30,13 @@ ROOT_SCRIPTS=( \
 )
 
 
-rm root-post-install.txt
+rm root-post-install.txt 2> /dev/null
 
 # Install system applications
 for loop in "${ROOT_SCRIPTS[@]}"; do
 	./root/${loop}.sh
 done
 
-cat root-post-install.txt
+
+cat root-post-install.txt 2> /dev/null
+echo 'root installation completed'
