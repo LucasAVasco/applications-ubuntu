@@ -22,6 +22,8 @@ apt install -y kleopatra
 # Keepassxc
 apt install -y keepassxc
 
+# Kdialog (to start and stop KeeShare backend)
+apt install -y kdialog
 
 # Rclone
 apt install -y rclone rclone-browser
