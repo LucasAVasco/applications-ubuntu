@@ -22,6 +22,10 @@ apt install -y kleopatra
 # Keepassxc
 apt install -y keepassxc
 
+
+# Rclone
+apt install -y rclone rclone-browser
+
 # Sirikali
 apt install -y sirikali
 
