@@ -37,10 +37,8 @@ apt install -y catfish
 # Compare files
 apt install -y meld
 
-# Alacritty
-add-apt-repository -y ppa:mmstick76/alacritty
-apt update
-apt install -y alacritty
-
 # Torrent clients
 apt install -y qbittorrent
+
+# Alacritty
+echo -e "\nRemember to install Alacritty from POP_OS repositories. 'http://ppa.launchpad.net/system76/pop/ubuntu/pool/main/a/alacritty/'" >> 'root-post-install.txt'
