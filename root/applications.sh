@@ -20,8 +20,6 @@ apt install -y simple-scan
 apt install -y kicad freecad octave wireshark
 
 # Qeletrotech
-add-apt-repository -y ppa:scorpio/qelectrotech-dev
-apt update
 apt install -y qelectrotech
 
 # Mime types
