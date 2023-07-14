@@ -7,6 +7,9 @@ apt install -y dirmngr gpg rng-tools
 # Hash
 apt install -y gtkhash
 
+# Metadata
+apt install -y mat2
+
 # Firewall
 apt install -y gufw
 

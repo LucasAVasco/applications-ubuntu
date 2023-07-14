@@ -13,6 +13,7 @@ USER_SCRIPTS=( \
 	'development' \
 	'fonts' \
 	'document' \
+	'security' \
 	#'avr' \
 	#'game_development' \
 	#'games' \
