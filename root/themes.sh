@@ -8,11 +8,6 @@ apt install -y xfce4-appfinder # Used to add applications to plank
 # Arc Themes
 apt install -y arc-theme
 
-# Plata theme
-add-apt-repository -y ppa:tista/plata-theme
-apt update
-apt install -y plata-theme
-
 # Breeze
 apt install -y breeze
 
