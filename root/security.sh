@@ -32,4 +32,4 @@ apt install -y rclone rclone-browser
 apt install -y sirikali
 
 # Gnome polkit
-apt install -y policykit-1-gnome
+apt install -y policykit-1-gnome libsecret-tools
