@@ -36,8 +36,6 @@ apt install -y dia
 apt install -y blender
 
 # Krita
-add-apt-repository -y ppa:kritalime/ppa
-apt update -y
 apt install -y krita
 
 # Install HandBreak
