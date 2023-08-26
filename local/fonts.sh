@@ -1,10 +1,19 @@
 #!/bin/bash
 
 
-# Install Hack Regular Nerd Font Complete Mono
 HOME_PATH=~
+TMP_DIR=$(mktemp -d /tmp/tmp.fonts.XXXXXXXX)
+
+
+# Install Hack Nerd Font
 mkdir -p ~/.fonts/nerd
-curl --location https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete%20Mono.ttf --output ${HOME_PATH}'/.fonts/nerd/Hack Regular Nerd Font Complete Mono.ttf'
+curl --location 'https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip' --output "${TMP_DIR}/Hack.zip"
+unzip "${TMP_DIR}/Hack.zip" -d ~/.fonts/nerd/
 
 # Install Noto Sans Nerd Font
-curl --location https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Noto/Sans/complete/Noto%20Sans%20Regular%20Nerd%20Font%20Complete.ttf --output ${HOME_PATH}'/.fonts/nerd/Noto Sans Regular Nerd Font Complete.ttf'
+mkdir -p ~/.fonts/noto
+curl --location 'https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Noto.zip' --output "${TMP_DIR}/Noto.zip"
+unzip "${TMP_DIR}/Noto.zip" -d ~/.fonts/noto/
+
+
+rm -r "${TMP_DIR}"
