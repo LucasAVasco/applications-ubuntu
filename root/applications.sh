@@ -23,9 +23,6 @@ apt install -y simple-scan
 # Electronics
 apt install -y kicad freecad octave wireshark
 
-# Qeletrotech
-apt install -y qelectrotech
-
 # Mime types
 apt install -y menulibre
 
