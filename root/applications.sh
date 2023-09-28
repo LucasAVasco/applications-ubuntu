@@ -12,7 +12,7 @@ apt install -y playonlinux
 apt install -y gnome-system-monitor
 
 # Pdf manipulation and read
-apt install -y pdfshuffler pdfmod evince okular
+apt install -y pdfmod evince okular
 
 # Archive manipulation
 apt install -y file-roller rar
