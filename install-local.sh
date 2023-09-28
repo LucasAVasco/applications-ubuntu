@@ -14,6 +14,7 @@ USER_SCRIPTS=( \
 	'fonts' \
 	'document' \
 	'security' \
+	#'multimedia' \
 	#'avr' \
 	#'game_development' \
 	#'games' \
