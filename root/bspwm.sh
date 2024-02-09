@@ -22,6 +22,9 @@ apt install -y qiv xtrlock conky imagemagick fonts-noto-core xss-lock
 # Screenshooter
 apt install -y gnome-screenshot
 
+# Monitor manager
+apt install -y arandr
+
 # Polybar
 echo -e "\nyou need to install Polybar for the Deabian packages repository: https://packages.debian.org/bullseye/polybar" \
 	"\nmaybe you need to install libjsoncpp24: https://packages.debian.org/bullseye/libjsoncpp24\n" >> 'root-post-install.txt'
