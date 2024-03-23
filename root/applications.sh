@@ -42,7 +42,7 @@ apt install -y meld
 apt install -y qbittorrent
 
 # Kicad
-echo -e "\nInstall kicad from 'https://www.kicad.org/download/linux/'\n" >> 'root-post-install.txt'
+echo -e "\nInstall kicad from 'https://www.kicad.org/download/linux/'\n" >> 'post-install.txt'
 
 # Alacritty
-echo -e "\nRemember to install Alacritty from POP_OS repositories. 'http://ppa.launchpad.net/system76/pop/ubuntu/pool/main/a/alacritty/'\n" >> 'root-post-install.txt'
+echo -e "\nRemember to install Alacritty from POP_OS repositories. 'http://ppa.launchpad.net/system76/pop/ubuntu/pool/main/a/alacritty/'\n" >> 'post-install.txt'

@@ -25,4 +25,4 @@ apt install -y libreoffice-style-sifr
 # Local installed themes
 echo -e "\nDownoad Whitesur Gtk Light and Dark theme on pling store," \
 	"\nWhitesur icon theme on pling store and" \
-	"\nOrchis GTK theme in Gnome Look.\n" >> 'root-post-install.txt'
+	"\nOrchis GTK theme in Gnome Look.\n" >> 'post-install.txt'
