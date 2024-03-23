@@ -2,6 +2,5 @@
 .*~
 *~
 
-# Post install messages and log
+# Log messages
 /log.txt
-/post-install.txt

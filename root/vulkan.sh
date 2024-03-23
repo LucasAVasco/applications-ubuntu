@@ -9,6 +9,3 @@ apt install -y libxxf86vm-dev libxi-dev
 
 # Linear algebra in GPU
 apt install libglm-dev
-
-# Shader compiler
-echo -e "\nRemember to install the shaders compiler: https://docs.vulkan.org/tutorial/latest/02_Development_environment.html#_shader_compiler\n" >> 'post-install.txt'
