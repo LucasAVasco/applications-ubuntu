@@ -29,6 +29,9 @@ apt install -y menulibre
 # Email
 apt install -y evolution
 
+# Dictionary and translation
+sudo apt install -y goldendict translate-shell mpg123
+
 # QR code
 apt install -y qtqr
 
