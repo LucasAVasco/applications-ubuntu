@@ -20,7 +20,7 @@ apt install -y xfce4-notifyd
 apt install -y stalonetray
 
 # Screen locker
-apt install -y qiv xtrlock conky imagemagick fonts-noto-core xss-lock
+apt install -y mpv xsecurelock xss-lock
 
 # Screenshooter
 apt install -y gnome-screenshot
