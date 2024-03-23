@@ -8,7 +8,7 @@ apt install -y bspwm sxhkd pulseaudio pavucontrol rofi brightnessctl zenity dcon
 apt install -y thunar thunar-archive-plugin thunar-volman vifm
 
 # Customization
-apt install -y lxappearance nitrogen compton
+apt install -y lxappearance nitrogen picom compton
 
 # Notification daemon
 apt install -y xfce4-notifyd
