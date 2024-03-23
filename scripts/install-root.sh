@@ -1,6 +1,8 @@
 #!/bin/bash
 
 
+set -e
+
 source to_install.sh
 
 # User sanity check. Need to have root privileges

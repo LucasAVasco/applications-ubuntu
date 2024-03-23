@@ -1,6 +1,8 @@
 #!/bin/bash
 
 
+set -e
+
 source to_install.sh
 
 # Does not run if the user is root

@@ -1,6 +1,8 @@
 #/bin/bash
 
 
+set -e
+
 source scripts/are_valid.sh
 ./scripts/exec_permission.sh
 
