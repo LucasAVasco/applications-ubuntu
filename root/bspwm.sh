@@ -22,6 +22,9 @@ apt install -y stalonetray
 # Screen locker
 apt install -y mpv xsecurelock xss-lock
 
+# To read json configuration files
+apt install -y jq
+
 # Screenshooter
 apt install -y gnome-screenshot
 
