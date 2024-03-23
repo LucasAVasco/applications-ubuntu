@@ -4,6 +4,9 @@
 # Basics
 apt install -y bspwm sxhkd pulseaudio pavucontrol rofi brightnessctl zenity dconf-cli polybar
 
+# Ibus
+apt install -y ibus
+
 # File manager
 apt install -y thunar thunar-archive-plugin thunar-volman vifm
 
