@@ -27,6 +27,7 @@ ROOT_SCRIPTS=( \
 	#'game_development' \
 	#'games' \
 	#'gtk' \
+	#'latex' \
 )
 
 
