@@ -32,5 +32,4 @@ apt install -y gnome-screenshot
 apt install -y arandr
 
 # Polybar
-echo -e "\nyou need to install Polybar for the Deabian packages repository: https://packages.debian.org/bullseye/polybar" \
-	"\nmaybe you need to install libjsoncpp24: https://packages.debian.org/bullseye/libjsoncpp24\n" >> 'post-install.txt'
+apt install -y polybar
