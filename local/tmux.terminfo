@@ -1,4 +1,14 @@
-tmux|tmux terminal multiplexer,
-  sitm=\E[3m, ritm=\E[23m,
-  smso=\E[7m, rmso=\E[27m,
-  use=screen,
+tmux|Tmux terminal multiplexer with italics and standout mode,
+	use=screen,
+
+
+tmux-256color|Tmux terminal multiplexer with 256 colors, italics and standout mode,
+# Begin and end escapes for italics
+	sitm=\E[3m, ritm=\E[23m,
+# Begin and end escapes for standout mode (swap foreground and background)
+	smso=\E[7m, rmso=\E[27m,
+	use=screen-256color,
+
+
+tmux-alacritty|Tmux with alacritty terminal,
+	use=alacritty,

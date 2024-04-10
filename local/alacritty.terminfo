@@ -1,0 +1,6 @@
+alacritty|Alacritty terminal emulator with 256 colors, italic and standout mode,
+# Begin and end escapes for italics
+	sitm=\E[3m, ritm=\E[23m,
+# Begin and end escapes for standout mode (swap foreground and background)
+	smso=\E[7m, rmso=\E[27m,
+	use=xterm-256color,

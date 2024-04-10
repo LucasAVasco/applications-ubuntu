@@ -31,9 +31,8 @@ asdf global yarn latest
 
 
 # Italic to Neovim
+tic -o "$HOME/.terminfo" local/alacritty.terminfo
 tic -o "$HOME/.terminfo" local/tmux.terminfo
-tic -o "$HOME/.terminfo" local/tmux-256color.terminfo
-tic -o "$HOME/.terminfo" local/xterm-256color.terminfo
 
 
 # Homebrew
