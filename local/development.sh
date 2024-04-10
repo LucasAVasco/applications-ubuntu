@@ -28,6 +28,7 @@ asdf global nodejs latest
 asdf plugin-add yarn
 asdf install yarn latest
 asdf global yarn latest
+yarn set version berry
 
 
 # Italic to Neovim
