@@ -33,3 +33,6 @@ apt install -y arandr
 
 # Polybar
 apt install -y polybar
+
+# Keyboard
+apt install -y bucklespring

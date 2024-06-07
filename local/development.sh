@@ -3,6 +3,7 @@
 
 # Python
 pip3 install pycodestyle pydocstyle
+pip3 install prompt_toolkit
 
 
 # ASDF
@@ -48,3 +49,13 @@ git lfs install
 # Setup git
 git config --global core.autocrlf input
 git config --global core.editor nvim
+git config --global init.defaultBranch main
+
+
+# LSP Typescript
+npm install -g typescript-language-server
+
+
+# LSP Python
+npm install -g pyright
+pip3 install python-lsp-server pylsp-mypy python-lsp-ruff
